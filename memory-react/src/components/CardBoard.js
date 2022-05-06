@@ -36,6 +36,7 @@ export default function CardBoard(props) {
     React.useEffect(() => {
         if (gameLost === true) {
             setGameLost(false)
+            console.log("reached")  
             setCardsArray( () =>
             imagesArray.images.map((_, i) => (
                 <div className="card-wrapper" key={i}>
@@ -43,15 +44,16 @@ export default function CardBoard(props) {
                     source={imagesArray.images[i].src}
                     name={imagesArray.images[i].name}
                     id={imagesArray.images[i].id}
-                    clicked={imagesArray.images[i].clicked}
+                    clicked={imagesArray.images[i].always}
                     score={props.score}
                     bestScore={props.bestScore}
                     setScore={props.setScore}
                     setBestScore={props.setBestScore}
                     setGameLost={setGameLost}
                     gameLost={gameLost}
+                    count={count}
                     />
-                </div>)))   
+                </div>))) 
         }
         else {
         setCardsArray( () =>

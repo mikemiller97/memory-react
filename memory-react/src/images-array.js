@@ -17,62 +17,62 @@ export default {
             id: 1,
             src: cash,
             name: "Cash",
-            clicked: false
+            always: false
         }, {
             id: 2,
             src: chromie,
             name: "Chromie",
-            clicked: false
+            always: false
         }, {
             id: 3,
             src: hazel,
             name: "Hazel from HazelNuttyGames",
-            clicked: false
+            always: false
         }, {
             id: 4,
             src: keem,
             name: "Keemstar",
-            clicked: false
+            always: false
         }, {
             id: 5,
             src: killua,
             name: "Killua",
-            clicked: false
+            always: false
         }, {
             id: 6,
             src: kim,
             name: "Kim Jong-un",
-            clicked: false
+            always: false
         }, {
             id: 7,
             src: kyoko,
             name: "TOSHINO KYOKO",
-            clicked: false
+            always: false
         }, {
             id: 8,
             src: lee,
             name: "Lee Jong-suk",
-            clicked: false
+            always: false
         }, {
             id: 9,
             src: llamar,
             name: "Llamar",
-            clicked: false
+            always: false
         }, {
             id: 10,
             src: park,
             name: "Park Shin-hye",
-            clicked: false
+            always: false
         }, {
             id: 11,
             src: squidward,
             name: "Squidward",
-            clicked: false
+            always: false
         }, {
             id: 12,
             src: wangJunkai,
             name: "Wang Junkai",
-            clicked: false
+            always: false
         }
     ]
 }
